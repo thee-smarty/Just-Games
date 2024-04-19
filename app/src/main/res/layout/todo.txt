@@ -1,0 +1,4 @@
+- create new main screen
+- add loading screen
+- add logo
+- add games
