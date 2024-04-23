@@ -1,40 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
     android:background="@color/white"
-    android:layout_margin="20dp"
-    android:orientation="vertical"
     android:visibility="visible"
     tools:context=".MainActivity">
 
-    <Spinner
-        android:id="@+id/players"
-        android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:layout_gravity="top"
-        android:layout_marginHorizontal="20dp"
-        android:layout_marginTop="20dp" />
-
-    <ImageView
-        android:id="@+id/dice"
-        android:layout_width="300dp"
-        android:layout_height="300dp"
-        android:layout_marginTop="20dp"
-        android:layout_gravity="center"
-        android:src="@drawable/dice_3"
-        android:visibility="visible" />
-
     <TextView
-        android:id="@+id/PlayerId"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="Player 1"
-        android:textSize="20dp" />
+        android:text="Add home screen contents here"
+        android:textSize="30dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        />
 
-
-</LinearLayout>
+</RelativeLayout>
