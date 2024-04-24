@@ -5,17 +5,92 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
-    android:background="@color/white"
+    android:background="#ffeae3"
     android:visibility="visible"
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/title"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Add home screen contents here"
-        android:textSize="30dp"
-        android:layout_centerVertical="true"
+        android:text="Just Games"
+        android:gravity="center"
+        android:textSize="35dp"
+        android:textColor="#121481"
+        android:background="#ffb1b1"
         android:layout_centerHorizontal="true"
         />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            app:cardBackgroundColor="#ffcbcb"
+            app:cardCornerRadius="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="180dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Just Dice"
+                    android:textColor="#121481"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            app:cardBackgroundColor="#ffcbcb"
+            app:cardCornerRadius="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="180dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Rock, Paper &amp; Scissor"
+                    android:textColor="#121481"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </TableLayout>
+
+
 
 </RelativeLayout>
