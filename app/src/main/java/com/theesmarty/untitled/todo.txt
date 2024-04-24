@@ -1,4 +1,7 @@
-- create new main screen
-- add loading screen
+immediate todo:
+- add styles & colors to home screen
+- add functionally of click to cards
+
+follow todo:
 - add logo
-- add games
+- add rock paper scissor game
