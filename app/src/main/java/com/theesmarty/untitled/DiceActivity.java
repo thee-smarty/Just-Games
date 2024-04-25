@@ -22,7 +22,7 @@ public class DiceActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_dice);
         img=findViewById(R.id.dice);
         score = findViewById(R.id.PlayerId);
 
@@ -55,7 +55,6 @@ public class DiceActivity extends AppCompatActivity {
                 break;
             case 6: img.setImageResource(R.drawable.dice_6);
                 score.setText("SIX");
-                rollDice();
                 break;
         }
     }
