@@ -1,7 +1,3 @@
-immediate todo:
-- add styles & colors to home screen
-- add functionally of click to cards
-
-follow todo:
+todo:
 - add logo
 - add rock paper scissor game
