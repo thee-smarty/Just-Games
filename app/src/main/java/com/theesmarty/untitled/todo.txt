@@ -1,3 +1,4 @@
 todo:
 - add logo
 - add rock paper scissor game
+- add images in home screen
