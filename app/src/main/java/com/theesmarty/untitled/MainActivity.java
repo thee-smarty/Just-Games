@@ -32,5 +32,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(in);
             }
         });
+
+        g2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent in = new Intent(MainActivity.this,RockPaperScissorActivity.class);
+                startActivity(in);
+            }
+        });
     }
 }
