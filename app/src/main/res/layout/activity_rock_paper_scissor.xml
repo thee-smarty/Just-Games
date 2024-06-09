@@ -138,6 +138,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="5dp"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"
             android:text="Rock"
             android:textSize="20dp" />
 
@@ -146,6 +148,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="5dp"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"
             android:text="Paper"
             android:textSize="20dp" />
 
@@ -154,6 +158,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="5dp"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"
             android:text="Scissor"
             android:textSize="20dp" />
 
