@@ -35,6 +35,7 @@
             android:layout_marginTop="20dp"
             app:cardBackgroundColor="#ffffff"
             android:id="@+id/dice"
+            android:background="@drawable/card_bg"
             app:cardCornerRadius="15dp">
 
             <LinearLayout
@@ -45,7 +46,7 @@
                 <ImageView
                     android:layout_width="180dp"
                     android:layout_height="180dp"
-                    android:src="@drawable/dice"/>
+                    android:src="@drawable/dice_game_image"/>
 
                 <TextView
                     android:layout_width="fill_parent"
@@ -68,6 +69,7 @@
             android:layout_marginTop="20dp"
             android:id="@+id/rps"
             app:cardBackgroundColor="#ffffff"
+            android:background="@drawable/card_bg"
             app:cardCornerRadius="15dp">
 
             <LinearLayout
@@ -79,7 +81,7 @@
                 <ImageView
                     android:layout_width="180dp"
                     android:layout_height="180dp"
-                    android:src="@drawable/rps"/>
+                    android:src="@drawable/rps_game_image"/>
 
                 <TextView
                     android:layout_width="fill_parent"
@@ -102,6 +104,7 @@
             android:layout_marginTop="20dp"
             app:cardBackgroundColor="#ffffff"
             android:id="@+id/more"
+            android:background="@drawable/card_bg"
             app:cardCornerRadius="15dp">
 
             <LinearLayout
