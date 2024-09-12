@@ -12,7 +12,7 @@ Virtal Dice where you can easily play your dice based games on few taps.
 
 Play rock paper scissors with your phone as opponent. Let your phone challenge you.
 
-### More Soon...
+### More Comming Soon...
 
 ## Technology Stack
 
