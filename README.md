@@ -1,4 +1,4 @@
-# Just Games
+# [Just Games](https://play.google.com/store/apps/details?id=com.theesmarty.untitled)
 
 Welcome to the Just Games Repository! 
 
