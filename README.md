@@ -1,6 +1,6 @@
 # [Just Games](https://play.google.com/store/apps/details?id=com.theesmarty.untitled)
 
-Welcome to the Just Games Repository! 
+Just Games is a fun and simple app featuring games like dice and rock-paper-scissors, with more games to be added soon. It's perfectly designed for quick, casual play and simple entertainment.
 
 ## Games
 
