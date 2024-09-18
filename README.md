@@ -6,11 +6,11 @@ Just Games is a fun and simple app featuring games like dice and rock-paper-scis
 
 ### Dice
 
-Virtal Dice where you can easily play your dice based games on few taps.
+- Virtal Dice where you can easily play your dice based games on few taps.
 
 ### Rock Paper Scissors
 
-Play rock paper scissors with your phone as opponent. Let your phone challenge you.
+- Play rock paper scissors with your phone as opponent. Let your phone challenge you.
 
 ### More Comming Soon...
 
